@@ -365,14 +365,7 @@ function mostraGalleria(immagini) {
 ![image-20201208230111736](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/galleria.png)
 
 
-
-## Target Utenti 👤
-
-L'idea è quella di poter ricercare uno sfondo per il proprio dispositivo (computer o smartphone) in base a un colore a proprio piacimento. L'ambito dell'applicazione è dunque quello **consumer**.
-
 ## Nota sulla Responsiveness ❗
-
-In quanto appassionato di grafica mi sono divertito a cercare di rendere il sito web quanto più responsive e appagante graficamente, pur mantenendo uno stile *semplice*.
 
 Come citato sopra, ho utilizzato la **Simple Grid CSS** per facilitarmi la costruzione e l'allineamento dei Div, senza dover ricorrere a un intero Framework (ad esempio *Bootstrap*).
 
