@@ -52,7 +52,7 @@ Ogni colore generato viene applicato al tema della pagina tramite variabile CSS.
 
 Il colore può essere copiato in memoria con il click. [Vedi Codice per funzione di copia automatica]
 
-![Copia Colore](https://github.com/wildLori/Sfondino/tree/main/assets/screen/iconimage-20201208171236893.png)
+![Copia Colore](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/iconimage-20201208171236893.png)
 
 Il cambio di colore è dato da due funzioni:
 
@@ -256,7 +256,7 @@ L'interazione Client-API è quindi così riassunta:
 Le immagini ottenute vengono visualizzate con una grande anteprima in alto e al centro dello schermo.
 Lo scorrimento avviene attraverso lo spostamento nell'Index.
 
-![image-20201208224718163](https://github.com/wildLori/Sfondino/tree/main/assets/screen/anteprima.png)
+![image-20201208224718163](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/anteprima.png)
 
 Questa prima immagine viene mostrata estraendo i dati dal JSON.
 
@@ -282,9 +282,9 @@ function mostrarispostaJSON(risposta) {
 
 I 3 bottoni disponibili in seguito alla ricerca sono i seguenti:
 
-![3 bottoni](https://github.com/wildLori/Sfondino/tree/main/assets/screen/Immagine 2020-12-08 212942.png)
+![3 bottoni](https://github.com/wildLori/Sfondino/blob/main/assets/screen/Immagine%202020-12-08%20212942.png?raw=true)
 
-| ![image-20201208214146252](https://github.com/wildLori/Sfondino/tree/main/assets/screen/1.png) | ![image-20201208214201969](https://github.com/wildLori/Sfondino/tree/main/assets/screen/2.png) | ![image-20201208214227736](https://github.com/wildLori/Sfondino/tree/main/assets/screen/3.png) |
+| ![image-20201208214146252](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/1.png) | ![image-20201208214201969](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/2.png) | ![image-20201208214227736](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/3.png) |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 | Tasto Download                                    | Tasto Cambia Colore                               | Tasto Ricerca Keyword                             |
 
@@ -362,7 +362,7 @@ function mostraGalleria(immagini) {
 }
 ```
 
-![image-20201208230111736](https://github.com/wildLori/Sfondino/tree/main/assets/screen/galleria.png)
+![image-20201208230111736](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/galleria.png)
 
 
 
