@@ -1,0 +1,372 @@
+:root {
+    --themeColor: #AA2B37;
+    --fontColor: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    z-index: 0;
+    background-color: var(--themeColor);
+    /* filter: blur(1px); */
+}
+
+#mioWrapper {
+    z-index: 2;
+    height: 100vh;
+}
+
+#mioWrapperGalleria {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    padding: 5% 15%;
+    height: 100vh;
+}
+
+.riga {
+    display: flex;
+}
+
+.container-center {
+    width: 90%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vert {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.sfora-sopra {
+    margin-top: -20px;
+}
+
+.sfora-sotto {
+    margin-bottom: -40px;
+}
+
+.stretto {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.stretto a {
+    margin: 10px;
+    color: var(--themeColor);
+}
+
+
+/* ------------------------------------ ELEMENTI UI ----------------------------------- */
+
+.card {
+    background: white;
+    box-shadow: 0px 15px 50px -20px rgba(4, 7, 54, 0.304305);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.inv {
+    background-color: transparent;
+    padding: 0%;
+    line-height: 0%;
+}
+
+.card:hover p {
+    transition: all 0.25s ease;
+    background: var(--themeColor);
+    box-shadow: 0px 15px 50px -20px rgba(4, 7, 54, 0.304305);
+    border-radius: 10px;
+    padding: 5%;
+    color: var(--fontColor);
+    cursor: pointer;
+}
+
+.card p {
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    color: var(--themeColor);
+    cursor: pointer;
+}
+
+.card .icon {
+    margin-top: 5%;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.icon-piccola {
+    width: 28px;
+    height: 28px;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+button {
+    padding: 15px 2% 15px 2%;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: var(--fontColor);
+    background-color: var(--themeColor);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--themeColor);
+    color: var(--fontColor);
+    transform: translateY(-7px);
+}
+
+button:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: var(--fontColor);
+    color: var(--themeColor);
+}
+
+.avanti {
+    color: var(--fontColor);
+}
+
+.bottoneSwitch {
+    text-transform: initial;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: var(--themeColor);
+    background-color: var(--fontColor);
+}
+
+
+/*.bottoneStrumento {
+    text-transform: initial;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: var(--themeColor);
+    background-color: var(--fontColor);
+    font-size: medium;
+}*/
+
+.dot {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 3%;
+    border-radius: 50%;
+    border-radius: 1;
+    display: inline-block;
+    transform: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.dot:hover {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    transform: translateY(7px);
+    box-shadow: inset 0px 0px 0px 10px var(--fontColor);
+    padding: 3%;
+}
+
+.strumenti {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+
+.strumenti>div {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.img-info {
+    margin-top: -20px;
+    z-index: 5;
+    color: var(--themeColor);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    z-index: 3;
+    box-shadow: 0px 15px 50px -20px rgba(4, 7, 54, 0.304305);
+}
+
+.immagineGalleria img {
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 15px 50px -20px rgba(4, 7, 54, 0.304305);
+}
+
+.immagineGalleria {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 2rem;
+    width: 25%;
+}
+
+
+/* ------------------------------- Singoli ID ------------------------------- */
+
+#generaBottone {
+    margin-top: -15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+
+#colorCode {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#immagineAttiva {
+    width: 100%;
+}
+
+#schedaImmagine {
+    margin-top: -3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5;
+}
+
+#autore {
+    color: black;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+#ricercaQuery {
+    display: none;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 2%;
+    height: max-content;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    border-width: 0px;
+    border-radius: 10px;
+    display: inline-block;
+    transform: none;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------- FX ----------------------------------- */
+
+.typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--themeColor);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3s steps(40, end), cursore-blink .75s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes cursore-blink {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: var(--themeColor);
+    }
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltiptext {
+    text-transform: initial;
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--themeColor);
+    box-shadow: 0px 15px 50px -20px rgba(0, 0, 0, 0.685);
+    color: var(--fontColor);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 5;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* ------------------------------- Background ------------------------------- */
