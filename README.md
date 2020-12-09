@@ -48,7 +48,7 @@ http://127.0.0.1:5500/#1 -> Scelta Colore
 L'applicazione permette la generazione randomica di colori.
 Ogni colore generato viene applicato al tema della pagina tramite variabile CSS.
 
-![Inizio Schermata Generazione Colore](image-20201208171000855.png)
+![Inizio Schermata Generazione Colore](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/image-20201208171000855.png)
 
 Il colore può essere copiato in memoria con il click. [Vedi Codice per funzione di copia automatica]
 
