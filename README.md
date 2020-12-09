@@ -52,7 +52,7 @@ Ogni colore generato viene applicato al tema della pagina tramite variabile CSS.
 
 Il colore può essere copiato in memoria con il click. [Vedi Codice per funzione di copia automatica]
 
-![Copia Colore](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/iconimage-20201208171236893.png)
+![Copia Colore](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/image-20201208171236893.png)
 
 Il cambio di colore è dato da due funzioni:
 
@@ -109,7 +109,7 @@ http://127.0.0.1:5500/#2 -> Scelta Orientamento Schermo
 
 La seconda schermata permette di scegliere il dispositivo per il quale cercare sfondi. Essenzialmente, questo permette di filtrare per sfondi **Landscape** (rapporto larghezza/altezza > 1) o sfondi **Portrait** (rapporto larghezza/altezza < 1). 
 
-![image-20201208215035846](https://github.com/wildLori/Sfondino/tree/main/assets/screen/sceglidispositivo.png)
+![image-20201208215035846](https://raw.githubusercontent.com/wildLori/Sfondino/main/assets/screen/sceglidispositivo.png)
 
 ### Ricerca 🔎
 
