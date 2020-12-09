@@ -4,7 +4,6 @@
 
 ## Indice
 
-[TOC]
 
 # Tools & Specifiche
 
@@ -49,11 +48,11 @@ http://127.0.0.1:5500/#1 -> Scelta Colore
 L'applicazione permette la generazione randomica di colori.
 Ogni colore generato viene applicato al tema della pagina tramite variabile CSS.
 
-![Inizio Schermata Generazione Colore](./image-20201208171000855.png)
+![Inizio Schermata Generazione Colore](https://github.com/wildLori/Sfondino/tree/main/assets/screen/image-20201208171000855.png)
 
 Il colore può essere copiato in memoria con il click. [Vedi Codice per funzione di copia automatica]
 
-![Copia Colore](./iconimage-20201208171236893.png)
+![Copia Colore](https://github.com/wildLori/Sfondino/tree/main/assets/screen/iconimage-20201208171236893.png)
 
 Il cambio di colore è dato da due funzioni:
 
@@ -110,7 +109,7 @@ http://127.0.0.1:5500/#2 -> Scelta Orientamento Schermo
 
 La seconda schermata permette di scegliere il dispositivo per il quale cercare sfondi. Essenzialmente, questo permette di filtrare per sfondi **Landscape** (rapporto larghezza/altezza > 1) o sfondi **Portrait** (rapporto larghezza/altezza < 1). 
 
-![image-20201208215035846](./sceglidispositivo.png)
+![image-20201208215035846](https://github.com/wildLori/Sfondino/tree/main/assets/screen/sceglidispositivo.png)
 
 ### Ricerca 🔎
 
@@ -257,7 +256,7 @@ L'interazione Client-API è quindi così riassunta:
 Le immagini ottenute vengono visualizzate con una grande anteprima in alto e al centro dello schermo.
 Lo scorrimento avviene attraverso lo spostamento nell'Index.
 
-![image-20201208224718163](./anteprima.png)
+![image-20201208224718163](https://github.com/wildLori/Sfondino/tree/main/assets/screen/anteprima.png)
 
 Questa prima immagine viene mostrata estraendo i dati dal JSON.
 
@@ -283,9 +282,9 @@ function mostrarispostaJSON(risposta) {
 
 I 3 bottoni disponibili in seguito alla ricerca sono i seguenti:
 
-![3 bottoni](.\assets\screen\Immagine 2020-12-08 212942.png)
+![3 bottoni](https://github.com/wildLori/Sfondino/tree/main/assets/screen/Immagine 2020-12-08 212942.png)
 
-| ![image-20201208214146252](./1.png) | ![image-20201208214201969](./2.png) | ![image-20201208214227736](./3.png) |
+| ![image-20201208214146252](https://github.com/wildLori/Sfondino/tree/main/assets/screen/1.png) | ![image-20201208214201969](https://github.com/wildLori/Sfondino/tree/main/assets/screen/2.png) | ![image-20201208214227736](https://github.com/wildLori/Sfondino/tree/main/assets/screen/3.png) |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 | Tasto Download                                    | Tasto Cambia Colore                               | Tasto Ricerca Keyword                             |
 
@@ -363,7 +362,7 @@ function mostraGalleria(immagini) {
 }
 ```
 
-![image-20201208230111736](./galleria.png)
+![image-20201208230111736](https://github.com/wildLori/Sfondino/tree/main/assets/screen/galleria.png)
 
 
 
