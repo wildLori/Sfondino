@@ -1,4 +1,4 @@
-# Documentazione "Sfondino" - Belfanti Lorenzo
+# Documentazione "Sfondino" - by Belfo
 
 “Sfondino” è un’applicazione web che permette di ottenere uno sfondo per il proprio dispositivo. Essa si interfaccia con le [API di Pexels](https://www.pexels.com/api/) , una repository di milioni di immagini costantemente aggiornata da aziende e fotografi.
 
